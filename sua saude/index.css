@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    font-family: "Nunito";
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #1e1919;
+}
+
+header {
+    background-color: #1fa0ac;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+header nav a{
+    color: #ffffff;
+    font-weight: 600;
+    padding: 32px;
+    text-decoration: none;
+}
+
+#Ínicio {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 100px 80px 328px 80px;
+    position: relative;
+}
+
+h1, 
+h2,
+h3,
+h4{
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+#informações {
+    display: flex;
+    align-items: center;
+    gap: 64px;; 
+    padding: 100px 80px 328px;
+    
+}
+
+#Datas {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 100px 80px 328px 80px;
+    position: relative;
+}
+
+#Datas li {
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+#Contatos {
+    display: flex;
+    align-items: center;
+    gap: 64px;; 
+    padding: 64px 80px;
+}
+
+#Contatos li {
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
